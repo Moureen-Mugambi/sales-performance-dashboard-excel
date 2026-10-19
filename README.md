@@ -2,7 +2,7 @@
 
 An interactive Excel dashboard that tracks sales across five African countries from 2023 to 2025.
 
-![Dashboard preview](sales-dashboard-preview.png)
+![Dashboard preview](Sales_dashboard_Preview.png)
 
 ## Background and objective
 
@@ -36,7 +36,7 @@ Sales data sat in one long table. It was hard to compare countries, products and
 9. Checked that the calculated columns match on every row
 10. Removed personal data. Customers appear only as anonymous codes such as "Cust 6583"
 
-![Cleaned table](cleaned-table.png)
+![Cleaned table](cleaned_table.png)
 
 ## Tools used
 
@@ -57,7 +57,7 @@ The workbook has three sheets:
 | Analysis | PivotTables that feed every chart |
 | Dashboard | The final interactive view |
 
-![Pivot tables](pivot-tables.png)
+![Pivot tables](Pivot_Table.png)
 
 The dashboard includes:
 
@@ -80,6 +80,22 @@ All figures cover 2023 to 2025 with no filters applied. Revenue is after discoun
 - **Bob** was the top salesperson with **$797K**, followed by Alice at $786K. Diana was lowest at $677K.
 - **FREESHIP** had the highest revenue among promotions at **$1.24M**, about 15% above orders with no promotion.
 - **372 orders (24.8%) were returned.** They are worth **$1.11M**.
+  
+  ## Recommendations
+
+These are based on a sample dataset. Treat them as ideas to test, not proven causes.
+
+1. **Review the 15% discount tier.** Discounts cost about $348K, which is 7% of full-price sales. Orders at 15% off were no bigger than orders at 0% (10.5 items against 10.2 on average). Test a lower top discount.
+
+2. **Investigate returns.** One in four orders (24.8%) was returned, worth $1.11M. Cash orders had the highest return rate (30.8%). Chair (28.2%) and Laptop (27.4%) had the highest rates among products. Start the review there.
+
+3. **Keep free shipping.** FREESHIP drew the most orders (419, against 370 with no promotion) at a similar order value. Shipping is under 1% of revenue, so it is cheap to run. SAVE10 drew the fewest orders (338). Rework or replace it.
+
+4. **Coach salespeople on order size.** Bob's orders averaged $3,279 and Diana's $2,717. Carlos took the most orders (270) but had the lowest average order ($2,619). Share Bob's approach, such as selling larger quantities.
+
+5. **Grow Phone sales.** Phone earned the least ($497K). It had the fewest orders (195) and the lowest average order ($2,550). Try bundles with Laptop or Tablet.
+
+6. **Learn from Egypt and support South Africa.** Egypt had the highest average order ($3,133) and the lowest return rate (22.7%). South Africa earned the least among countries ($828K) and had a higher return rate (26.1%). Study what works in Egypt.
 
 ## Notes and limits
 
