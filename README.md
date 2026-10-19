@@ -36,7 +36,7 @@ Sales data sat in one long table. It was hard to compare countries, products and
 9. Checked that the calculated columns match on every row
 10. Removed personal data. Customers appear only as anonymous codes such as "Cust 6583"
 
-![Cleaned table](cleaned_table.png)
+![Cleaned table](Cleaned_table.png)
 
 ## Tools used
 
@@ -57,7 +57,7 @@ The workbook has three sheets:
 | Analysis | PivotTables that feed every chart |
 | Dashboard | The final interactive view |
 
-![Pivot tables](Pivot_Table.png)
+![Pivot tables](Pivot_Table_1.png)
 
 The dashboard includes:
 
