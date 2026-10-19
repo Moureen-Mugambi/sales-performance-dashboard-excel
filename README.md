@@ -105,7 +105,7 @@ These are based on a sample dataset. Treat them as ideas to test, not proven cau
 
 ## How to reproduce it
 
-1. Download `[your-file-name].xlsx` from this repository
+1. Download `sales-dashboard.xlsx` from this repository
 2. Open it in Microsoft Excel
 3. Go to the **Raw Data** sheet to see the order table
 4. Go to the **Analysis** sheet. Click **Data**, then **Refresh All** to update the PivotTables
